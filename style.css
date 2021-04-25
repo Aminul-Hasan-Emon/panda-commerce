@@ -105,5 +105,41 @@ h1 {
     border-top: none;
 }
 
+.connect {
+    background: #fceae8;
+    padding: 10vh 0;
+}
 
+.input-wrap {
+    background: white;
+    display: flex;
+    padding: .3rem;
+    border-radius: 4px;
+}
 
+.input-wrap input {
+    width: 100%;
+    border: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+.input-wrap input:focus {
+    outline: none;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(155, 155, 155);
+}
+
+@media (max-width: 566px) {
+    .input-wrap {
+        flex-direction: column;
+    }
+    .input-wrap input {
+        margin-bottom: 1rem;
+        padding: 1rem ;
+        border: 1px solid rgb(226, 226, 226);
+    }
+}
