@@ -62,7 +62,9 @@ h1 {
 
 .cat1,
 .cat2,
-.cat3 {
+.cat3,
+.cat4,
+.cat5 {
     padding: .8rem 1.8rem;
     border-radius: 10px;
     cursor: pointer;
@@ -78,6 +80,12 @@ h1 {
 }
 .cat3 {
     background: linear-gradient(to right, #3712F8, #5384ff);
+}
+.cat4 {
+    background: linear-gradient(to right, #8e44ad, #9b59b6);
+}
+.cat5 {
+    background: linear-gradient(to right,#27ae60, #2ecc71);
 }
 
 .categories h1 {
@@ -132,6 +140,26 @@ h1 {
     font-size: 1rem;
     color: rgb(155, 155, 155);
 }
+
+
+.subscribe .text h3 {
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.subscribe .text p {
+    font-size: 1rem;
+    color: rgb(145, 145, 145);
+}
+
+.see-more {
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media (max-width: 566px) {
     .input-wrap {
